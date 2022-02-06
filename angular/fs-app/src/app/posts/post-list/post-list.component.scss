@@ -1,0 +1,38 @@
+:host {
+  width: 50%;
+}
+
+mat-expansion-panel {
+  border-radius: 7px !important;
+}
+
+mat-expansion-panel {
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cdk-drop-list-dragging .post:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+mat-spinner {
+  margin: auto;
+}

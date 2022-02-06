@@ -1,0 +1,14 @@
+.button {
+    padding: 20px 60px;
+    background-color: #D43939;
+    color: #E6E6E6;
+
+    border: none;
+    border-radius: 8px;
+
+    transition: filter 0.2s;
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+}
